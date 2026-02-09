@@ -74,6 +74,33 @@ cinematic-ai-agent/
 
 
 
+cinematic-ai-frontend/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── video-plan-form/
+│   │   │   ├── scene-editor/
+│   │   │   ├── preview-player/
+│   │   │   └── progress-tracker/
+│   │   ├── services/
+│   │   │   ├── video-agent.service.ts
+│   │   │   ├── websocket.service.ts
+│   │   │   └── ai-planning.service.ts
+│   │   ├── models/
+│   │   │   ├── video-plan.model.ts
+│   │   │   └── scene.model.ts
+│   │   ├── pages/
+│   │   │   ├── dashboard/
+│   │   │   ├── editor/
+│   │   │   └── render/
+│   │   └── app.module.ts
+│   ├── index.html
+│   ├── styles.css
+│   └── main.ts
+├── angular.json
+├── package.json
+└── README.md
+
 
 
 # Cinematic AI Agent 🎬
